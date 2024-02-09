@@ -4,12 +4,6 @@ import base64
 
 
 class RoaringBitmapUtil:
-
-    @staticmethod
-    def to_byte_array(bitmap):
-        # Serialize the RoaringBitmap and return the byte array
-        return bitmap.serialize()
-
     @staticmethod
     def from_byte_array(byte_array):
         # Create a new RoaringBitmap instance and deserialize from the byte array
